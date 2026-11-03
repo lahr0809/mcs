@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Más Conexión Salud · Cartagena | Cirugía y Recuperación Acompañada</title>
+  <meta name="description" content="Acompañamiento médico integral y personalizado para cirugía y bienestar en Cartagena, Colombia. Especialistas certificados, hotel de recuperación y atención en tu idioma.">
+  <meta name="keywords" content="turismo médico cartagena, cirugia cartagena, recuperacion medica, bariatrica cartagena, refresh facial, reemplazo articular, mas conexion salud">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220%22%20%220%22%20%22100%22%20%22100%22><text y=%22.9em%22 font-size=%2290%22>🩺</text></svg>">
+  
+  <!-- Google Material Symbols (Icons) -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ========================================================================
+       HEADER & NAVBAR
+       ======================================================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <!-- Logotipo de Marca -->
+      <a href="#inicio" class="brand-link" aria-label="Más Conexión Salud">
+        <img src="Logo.png" alt="Más Conexión Salud Logo" class="brand-logo">
+        <div class="brand-text">
+          <span class="brand-title" data-i18n="nav_brand">MÁS CONEXIÓN SALUD</span>
+          <span class="brand-city" data-i18n="nav_city">CARTAGENA</span>
+        </div>
+      </a>
+
+      <!-- Navegación Principal (Desktop) -->
+      <nav class="main-navigation" aria-label="Menú principal">
+        <ul class="nav-list">
+          <li><a href="#inicio" class="nav-link" data-i18n="nav_home">Inicio</a></li>
+          <li><a href="#servicios" class="nav-link" data-i18n="nav_surgical">Servicios Quirúrgicos</a></li>
+          <li><a href="#wellness" class="nav-link" data-i18n="nav_wellness">Servicios Wellness</a></li>
+          <li><a href="#contacto" class="nav-link" data-i18n="nav_contact">Contáctanos</a></li>
+        </ul>
+      </nav>
+
+      <!-- Selector de Idioma y CTA -->
+      <div class="nav-actions">
+        <!-- Selector Bilingüe ES / EN -->
+        <div class="lang-switcher" role="group" aria-label="Selector de idioma">
+          <button type="button" class="lang-btn active" data-lang="es" aria-label="Cambiar a Español">ES</button>
+          <button type="button" class="lang-btn" data-lang="en" aria-label="Switch to English">EN</button>
+        </div>
+
+        <!-- Botón CTA de Valoración -->
+        <button type="button" class="btn-nav-cta btn-open-booking" data-i18n="nav_cta">Agendar valoración gratuita</button>
+
+        <!-- Botón Hamburguesa Móvil -->
+        <button type="button" class="mobile-menu-toggle" aria-label="Abrir menú de navegación">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Cajón de Navegación Móvil -->
+  <div class="mobile-drawer-overlay"></div>
+  <aside class="mobile-drawer" aria-label="Menú móvil">
+    <div class="mobile-drawer-header">
+      <a href="#inicio" class="brand-link" aria-label="Más Conexión Salud">
+        <img src="Logo.png" alt="Más Conexión Salud Logo" class="brand-logo">
+        <div class="brand-text">
+          <span class="brand-title" data-i18n="nav_brand">MÁS CONEXIÓN SALUD</span>
+          <span class="brand-city" data-i18n="nav_city">CARTAGENA</span>
+        </div>
+      </a>
+    </div>
+    <ul class="mobile-nav-list">
+      <li><a href="#inicio" class="mobile-nav-link" data-i18n="nav_home">Inicio</a></li>
+      <li><a href="#servicios" class="mobile-nav-link" data-i18n="nav_surgical">Servicios Quirúrgicos</a></li>
+      <li><a href="#wellness" class="mobile-nav-link" data-i18n="nav_wellness">Servicios Wellness</a></li>
+      <li><a href="#contacto" class="mobile-nav-link" data-i18n="nav_contact">Contáctanos</a></li>
+    </ul>
+
+    <div style="margin-top: auto; display: flex; flex-direction: column; gap: 16px;">
+      <button type="button" class="btn-primary btn-open-booking" style="width: 100%;" data-i18n="nav_cta">
+        Agendar valoración gratuita
+      </button>
+      <div style="display: flex; justify-content: center;">
+        <div class="lang-switcher">
+          <button type="button" class="lang-btn active" data-lang="es">Español (ES)</button>
+          <button type="button" class="lang-btn" data-lang="en">English (EN)</button>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ========================================================================
+       01 · HERO SECTION
+       ======================================================================== -->
+  <section id="inicio" class="hero-section">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="eyebrow">
+          <span class="eyebrow-dot"></span>
+          <span data-i18n="hero_eyebrow">MÁS CONEXIÓN SALUD · CARTAGENA</span>
+        </div>
+
+        <h1 class="hero-title" data-i18n="hero_title">
+          Opérate en Cartagena con <span class="accent-underline">alguien a tu lado</span> en cada paso
+        </h1>
+
+        <p class="hero-subtitle" data-i18n="hero_subtitle">
+          Te guiamos paso a paso: valoración previa, cirujano y clínica de confianza, hotel de recuperación y acompañamiento real hasta tu último control.
+        </p>
+
+        <div class="hero-cta-wrapper">
+          <button type="button" class="btn-primary btn-open-booking">
+            <span data-i18n="hero_cta">Agendar valoración gratuita</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </button>
+          <span class="btn-subtext" data-i18n="hero_cta_sub">Valoración gratuita · Sin compromiso · Presupuesto claro desde el inicio</span>
+        </div>
+      </div>
+
+      <!-- Fotografía Hero con Overlay de Marca -->
+      <div class="hero-image-card">
+        <img src="generated-8.png" alt="Acompañamiento médico en Cartagena" class="hero-img">
+        <div class="hero-img-overlay"></div>
+        <div class="hero-badge-tag">
+          <div class="hero-pill">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5CC4BC" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg>
+            <span data-i18n="hero_badge_hotel">Hotel de recuperación frente al mar</span>
+          </div>
+          <div class="hero-pill">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#5CC4BC" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+            <span data-i18n="hero_badge_bilingual">Atención 100% bilingüe y personalizada</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       02 · BARRA DE CONFIANZA
+       ======================================================================== -->
+  <section class="trust-bar" aria-label="Pilares de confianza">
+    <div class="container">
+      <div class="trust-items-row">
+        <div class="trust-item">
+          <span class="trust-dot"></span>
+          <span data-i18n="trust_1">ACOMPAÑAMIENTO PRESENCIAL</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-dot"></span>
+          <span data-i18n="trust_2">ATENCIÓN PERSONALIZADA</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-dot"></span>
+          <span data-i18n="trust_3">VALORACIÓN SIN COSTO</span>
+        </div>
+        <div class="trust-item">
+          <span class="trust-dot"></span>
+          <span data-i18n="trust_4">SEGUIMIENTO AL VOLVER</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       03 · PROBLEMA Y SOLUCIÓN: LAS TRES PREGUNTAS
+       ======================================================================== -->
+  <section class="section-questions" id="problema-solucion">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title" data-i18n="q_title">Las tres preguntas que te harás antes de viajar</h2>
+      </div>
+
+      <div class="questions-grid">
+        <!-- Pregunta 01 -->
+        <article class="q-card">
+          <span class="q-num" data-i18n="q1_num">1</span>
+          <h3 class="q-heading" data-i18n="q1_q">¿Y si algo se complica y no conozco a nadie allí?</h3>
+          <p class="q-answer" data-i18n="q1_a">Tienes equipo médico en la ciudad y una persona de guardia que contesta el teléfono las 24 horas.</p>
+        </article>
+
+        <!-- Pregunta 02 -->
+        <article class="q-card">
+          <span class="q-num" data-i18n="q2_num">2</span>
+          <h3 class="q-heading" data-i18n="q2_q">¿Quién me acompaña cuando salga del quirófano?</h3>
+          <p class="q-answer" data-i18n="q2_a">Alguien del equipo está contigo en la clínica y en el hotel desde que sales de recuperación.</p>
+        </article>
+
+        <!-- Pregunta 03 -->
+        <article class="q-card">
+          <span class="q-num" data-i18n="q3_num">3</span>
+          <h3 class="q-heading" data-i18n="q3_q">¿Cómo organizo el viaje, los controles y la recuperación?</h3>
+          <p class="q-answer" data-i18n="q3_a">Organizamos hotel, controles y fechas, y te decimos cuándo viajar. Así compras tu tiquete con todo definido.</p>
+        </article>
+      </div>
+
+      <div class="questions-footer-banner">
+        <span data-i18n="q_footer">Nosotros nos encargamos de las tres</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       04 · CÓMO FUNCIONA PASO A PASO
+       ======================================================================== -->
+  <section class="section-steps" id="como-funciona">
+    <div class="container">
+      <div class="section-head" style="text-align: left; margin: 0 0 30px;">
+        <h2 class="section-title" data-i18n="step_title">Cómo es estar acompañado, paso por paso</h2>
+        <p class="section-subtitle" data-i18n="step_subtitle">Desde la primera llamada hasta el último control, hay alguien del equipo pendiente de ti.</p>
+      </div>
+
+      <div class="steps-container">
+        <!-- Paso 01 -->
+        <div class="step-row">
+          <div class="step-icon-wrap" aria-hidden="true">
+            <span class="material-symbols-outlined step-icon">support_agent</span>
+          </div>
+          <div class="step-title" data-i18n="step1_title">Hablamos antes de que decidas</div>
+          <div class="step-description" data-i18n="step1_desc">Nos cuentas qué te pasa y qué te da miedo. Te decimos con franqueza si Cartagena es una buena opción para tu caso.</div>
+        </div>
+
+        <!-- Paso 02 -->
+        <div class="step-row">
+          <div class="step-icon-wrap" aria-hidden="true">
+            <span class="material-symbols-outlined step-icon">clinical_notes</span>
+          </div>
+          <div class="step-title" data-i18n="step2_title">Recibes el plan por escrito</div>
+          <div class="step-description" data-i18n="step2_desc">Qué te van a hacer, quién lo hace, cuántas noches te quedas y qué cuesta. Todo antes de que reserves un vuelo.</div>
+        </div>
+
+        <!-- Paso 03 -->
+        <div class="step-row">
+          <div class="step-icon-wrap" aria-hidden="true">
+            <span class="material-symbols-outlined step-icon">flight_land</span>
+          </div>
+          <div class="step-title" data-i18n="step3_title">Llegas y alguien te espera</div>
+          <div class="step-description" data-i18n="step3_desc">Te recibimos en el aeropuerto y te acompañamos a la clínica, al hotel y a los controles posteriores.</div>
+        </div>
+
+        <!-- Paso 04 -->
+        <div class="step-row">
+          <div class="step-icon-wrap" aria-hidden="true">
+            <span class="material-symbols-outlined step-icon">health_and_safety</span>
+          </div>
+          <div class="step-title" data-i18n="step4_title">Vuelves con seguimiento</div>
+          <div class="step-description" data-i18n="step4_desc">Seguimos en contacto cuando vuelvas, para los controles y las dudas de la recuperación.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       05 · VIDEO DE TERESA / EXPERIENCIA
+       ======================================================================== -->
+  <section class="section-video-experience" id="experiencia">
+    <div class="container">
+      <div class="video-split">
+        <!-- Tarjeta de Video Interactivo -->
+        <div class="video-thumb-container" style="cursor: pointer;">
+          <img src="Teresa-Torres-CEO.jpeg" alt="Teresa Torres Fundadora" class="video-thumb-img">
+          <button type="button" class="video-play-btn" aria-label="Reproducir video">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          </button>
+        </div>
+
+        <!-- Cita y Testimonio Editorial -->
+        <div class="video-quote-box">
+          <span class="eyebrow" data-i18n="video_badge">CONOCE NUESTRA METODOLOGÍA</span>
+          <blockquote class="video-quote-text" data-i18n="video_quote">
+            “Acompañar a alguien lejos de su casa es un trabajo de todos los días.”
+          </blockquote>
+          <cite class="video-author-badge" data-i18n="video_author">TERESA, FUNDADORA</cite>
+          <div>
+            <button type="button" class="btn-secondary" id="btn-trigger-video" style="border-color: var(--hairline-dark);">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+              <span data-i18n="video_cta">Ver mensaje de Teresa</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       06 · QUÉ CUBRE EL ACOMPAÑAMIENTO Y QUÉ NO
+       ======================================================================== -->
+  <section class="section-coverage" id="cobertura">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title" data-i18n="inc_title">Qué cubre el acompañamiento y qué no</h2>
+        <p class="section-subtitle" data-i18n="inc_subtitle">Preferimos decírtelo antes de que lo preguntes. Lo que no entra también aparece en esta lista.</p>
+      </div>
+
+      <div class="coverage-grid">
+        <!-- Columna Incluye -->
+        <div class="coverage-card included">
+          <h3 class="coverage-header">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            <span data-i18n="inc_heading">Incluye</span>
+          </h3>
+          <ul class="coverage-list">
+            <li>
+              <span class="check-icon">✓</span>
+              <span data-i18n="inc_item_1">Valoración médica inicial y lectura de tus exámenes</span>
+            </li>
+            <li>
+              <span class="check-icon">✓</span>
+              <span data-i18n="inc_item_2">Cirujano, anestesiólogo y equipo quirúrgico certificado</span>
+            </li>
+            <li>
+              <span class="check-icon">✓</span>
+              <span data-i18n="inc_item_3">Traslados en Cartagena: aeropuerto, clínica y hotel</span>
+            </li>
+            <li>
+              <span class="check-icon">✓</span>
+              <span data-i18n="inc_item_4">Hotel y acompañamiento diario durante la recuperación</span>
+            </li>
+            <li>
+              <span class="check-icon">✓</span>
+              <span data-i18n="inc_item_5">Controles postoperatorios y contacto con tu médico en tu país</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Columna No Incluye -->
+        <div class="coverage-card not-included">
+          <h3 class="coverage-header">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="15" y1="9" x2="9" y2="15"></line><line x1="9" y1="9" x2="15" y2="15"></line></svg>
+            <span data-i18n="not_inc_heading">No incluye</span>
+          </h3>
+          <ul class="coverage-list">
+            <li>
+              <span class="dash-icon">—</span>
+              <span data-i18n="not_inc_item_1">Tiquetes aéreos y trámites de visa</span>
+            </li>
+            <li>
+              <span class="dash-icon">—</span>
+              <span data-i18n="not_inc_item_2">Exámenes adicionales que no estén en el plan escrito</span>
+            </li>
+            <li>
+              <span class="dash-icon">—</span>
+              <span data-i18n="not_inc_item_3">Tratamientos o complicaciones que aparezcan después de la cirugía</span>
+            </li>
+            <li>
+              <span class="dash-icon">—</span>
+              <span data-i18n="not_inc_item_4">Gastos personales y acompañantes adicionales fuera del plan</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       07 · SERVICIOS QUIRÚRGICOS & SERVICIOS WELLNESS
+       ======================================================================== -->
+  <section class="section-services" id="servicios">
+    <div class="container">
+      <div class="services-top-bar">
+        <div>
+          <h2 class="section-title" style="color: var(--on-ink); margin-bottom: 8px;" data-i18n="serv_title">
+            Servicios a tu disposición, con el tiempo que pide cada uno
+          </h2>
+          <p class="section-subtitle" style="color: var(--on-ink-70); max-width: 680px;" data-i18n="serv_subtitle">
+            Cada servicio pide un tiempo distinto de preparación, de quirófano y de estadía. Abre el detalle de cada uno para ver los días que te toca apartar.
+          </p>
+
+          <!-- Pestañas Filtro: Quirúrgicos vs Wellness -->
+          <div class="services-tabs" id="wellness">
+            <button type="button" class="tab-btn active" data-tab="surgical" data-i18n="tab_surgical">Servicios Quirúrgicos</button>
+            <button type="button" class="tab-btn" data-tab="wellness" data-i18n="tab_wellness">Servicios Wellness & Recuperación</button>
+          </div>
+        </div>
+
+        <!-- Controles del Slider -->
+        <div class="slider-controls">
+          <span class="slider-counter" id="slider-counter">01 / 04</span>
+          <button type="button" class="slider-nav-btn" id="slider-prev" aria-label="Servicio anterior">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"></polyline></svg>
+          </button>
+          <button type="button" class="slider-nav-btn" id="slider-next" aria-label="Siguiente servicio">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Viewport y Carrusel -->
+      <div class="services-slider-viewport">
+        <div class="services-track" id="services-track">
+          <!-- CARD 1: Refresh Facial Avanzado -->
+          <article class="service-card" data-category="surgical">
+            <div class="service-card-media">
+              <img src="generated-7.png" alt="Refresh Facial Avanzado" class="service-card-img">
+              <div class="service-card-overlay"></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title" data-i18n="s_facial_title">Refresh Facial Avanzado</h3>
+              <p class="service-card-desc" data-i18n="s_facial_desc">Rejuvenece el rostro y el cuello reposicionando los tejidos que el envejecimiento fue bajando con naturalidad.</p>
+              <div class="service-card-footer">
+                <a href="#detalles" class="btn-detail-link" data-service="facial">
+                  <span data-i18n="serv_btn_details">Conocer detalles</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 2: Cirugía Bariátrica -->
+          <article class="service-card" data-category="surgical">
+            <div class="service-card-media">
+              <img src="generated-4.png" alt="Cirugía Bariátrica" class="service-card-img">
+              <div class="service-card-overlay"></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title" data-i18n="s_bariatric_title">Cirugía Bariátrica</h3>
+              <p class="service-card-desc" data-i18n="s_bariatric_desc">Reduce el tamaño del estómago o modifica el tránsito digestivo para bajar de peso, controlar diabetes y apnea del sueño.</p>
+              <div class="service-card-footer">
+                <a href="#detalles" class="btn-detail-link" data-service="bariatric">
+                  <span data-i18n="serv_btn_details">Conocer detalles</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 3: Reemplazos Articulares -->
+          <article class="service-card" data-category="surgical">
+            <div class="service-card-media">
+              <img src="generated-6.png" alt="Reemplazos Articulares" class="service-card-img">
+              <div class="service-card-overlay"></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title" data-i18n="s_joints_title">Reemplazos Articulares</h3>
+              <p class="service-card-desc" data-i18n="s_joints_desc">Reemplazo de rodilla y cadera para eliminar el dolor crónico y devolver el movimiento activo con rehabilitación guiada.</p>
+              <div class="service-card-footer">
+                <a href="#detalles" class="btn-detail-link" data-service="joints">
+                  <span data-i18n="serv_btn_details">Conocer detalles</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- CARD 4: Implante Peneano -->
+          <article class="service-card" data-category="surgical">
+            <div class="service-card-media">
+              <img src="generated-5.png" alt="Implante Peneano" class="service-card-img">
+              <div class="service-card-overlay"></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title" data-i18n="s_penile_title">Implante Peneano</h3>
+              <p class="service-card-desc" data-i18n="s_penile_desc">Solución definitiva para la disfunción eréctil severa mediante prótesis hidráulicas de última generación.</p>
+              <div class="service-card-footer">
+                <a href="#detalles" class="btn-detail-link" data-service="penile">
+                  <span data-i18n="serv_btn_details">Conocer detalles</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- WELLNESS CARD 1: Estadía Hotel Boutique -->
+          <article class="service-card" data-category="wellness" style="display: none;">
+            <div class="service-card-media">
+              <img src="paciente.jpg" alt="Estadía en Hotel Boutique de Recuperación" class="service-card-img">
+              <div class="service-card-overlay"></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title" data-i18n="s_hotel_title">Estadía en Hotel Boutique</h3>
+              <p class="service-card-desc" data-i18n="s_hotel_desc">Habitaciones acondicionadas ergonómicamente para pacientes, dieta balanceada prescrita por nutricionista y atención de enfermería 24/7.</p>
+              <div class="service-card-footer">
+                <a href="#detalles" class="btn-detail-link" data-service="hotel">
+                  <span data-i18n="serv_btn_details">Conocer detalles</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- WELLNESS CARD 2: Drenaje Linfático -->
+          <article class="service-card" data-category="wellness" style="display: none;">
+            <div class="service-card-media">
+              <img src="generated.png" alt="Drenaje Linfático Postquirúrgico" class="service-card-img">
+              <div class="service-card-overlay"></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title" data-i18n="s_lymph_title">Drenaje Linfático Postquirúrgico</h3>
+              <p class="service-card-desc" data-i18n="s_lymph_desc">Sesiones especializadas con fisioterapeutas certificados para desinflamar, acelerar la cicatrización y evitar fibrosis.</p>
+              <div class="service-card-footer">
+                <a href="#detalles" class="btn-detail-link" data-service="lymph">
+                  <span data-i18n="serv_btn_details">Conocer detalles</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- WELLNESS CARD 3: Cámara Hiperbárica -->
+          <article class="service-card" data-category="wellness" style="display: none;">
+            <div class="service-card-media">
+              <img src="generated-2.png" alt="Terapia de Cámara Hiperbárica" class="service-card-img">
+              <div class="service-card-overlay"></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title" data-i18n="s_hyperbaric_title">Terapia de Cámara Hiperbárica</h3>
+              <p class="service-card-desc" data-i18n="s_hyperbaric_desc">Oxigenación celular profunda al 100% que triplica la regeneración de tejidos y optimiza la respuesta inmunológica.</p>
+              <div class="service-card-footer">
+                <a href="#detalles" class="btn-detail-link" data-service="hyperbaric">
+                  <span data-i18n="serv_btn_details">Conocer detalles</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- WELLNESS CARD 4: Nutrición y Longevidad -->
+          <article class="service-card" data-category="wellness" style="display: none;">
+            <div class="service-card-media">
+              <img src="generated-3.png" alt="Nutrición y Longevidad Metabólica" class="service-card-img">
+              <div class="service-card-overlay"></div>
+            </div>
+            <div class="service-card-body">
+              <h3 class="service-card-title" data-i18n="s_nutrition_title">Nutrición y Longevidad</h3>
+              <p class="service-card-desc" data-i18n="s_nutrition_desc">Planes nutricionales antiinflamatorios diseñados para tu perfil metabólico antes, durante y después del procedimiento.</p>
+              <div class="service-card-footer">
+                <a href="#detalles" class="btn-detail-link" data-service="nutrition">
+                  <span data-i18n="serv_btn_details">Conocer detalles</span>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       08 · POR QUÉ HACERLO EN CARTAGENA
+       ======================================================================== -->
+  <section class="section-why" id="por-que-cartagena">
+    <div class="container">
+      <div class="section-head" style="text-align: left; margin: 0 0 20px;">
+        <h2 class="section-title" data-i18n="why_title">Por qué hacerlo en Cartagena</h2>
+        <p class="section-subtitle" data-i18n="why_subtitle">Operarte lejos de casa no tiene que ser difícil. En Cartagena encuentras especialistas de confianza, un plan claro y un lugar cálido para recuperarte con calma.</p>
+      </div>
+
+      <div class="why-grid">
+        <!-- 4 Pilares -->
+        <div class="why-pillars">
+          <div class="pillar-item">
+            <div class="pillar-header">
+              <div class="pillar-icon-wrap" aria-hidden="true">
+                <span class="material-symbols-outlined pillar-icon">verified_user</span>
+              </div>
+              <h3 class="pillar-title" data-i18n="why1_title">Calidad médica de confianza</h3>
+            </div>
+            <p class="pillar-desc" data-i18n="why1_desc">Te atienden cirujanos y clínicas con trayectoria comprobada, y nosotros validamos tu caso antes de que viajes.</p>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-header">
+              <div class="pillar-icon-wrap" aria-hidden="true">
+                <span class="material-symbols-outlined pillar-icon">spa</span>
+              </div>
+              <h3 class="pillar-title" data-i18n="why2_title">Recuperación en un destino que te hace bien</h3>
+            </div>
+            <p class="pillar-desc" data-i18n="why2_desc">Te recuperas en un hotel pensado para pacientes, en una ciudad cálida, segura para el visitante y llena de historia y brisa marina.</p>
+          </div>
+
+          <div class="pillar-item">
+            <div class="pillar-header">
+              <div class="pillar-icon-wrap" aria-hidden="true">
+                <span class="material-symbols-outlined pillar-icon">translate</span>
+              </div>
+              <h3 class="pillar-title" data-i18n="why3_title">Todo coordinado y en tu idioma</h3>
+            </div>
+            <p class="pillar-desc" data-i18n="why3_desc">Te recibimos, te alojamos y estamos contigo en cada paso, para que tú solo pienses en recuperarte sin estrés logístico.</p>
+          </div>
+
+          <div class="pillar-item" style="border-bottom: none;">
+            <div class="pillar-header">
+              <div class="pillar-icon-wrap" aria-hidden="true">
+                <span class="material-symbols-outlined pillar-icon">payments</span>
+              </div>
+              <h3 class="pillar-title" data-i18n="why4_title">Sabes cuánto pagas antes de viajar</h3>
+            </div>
+            <p class="pillar-desc" data-i18n="why4_desc">Antes de comprar tu pasaje, recibes un plan con el costo del procedimiento, el hotel y la logística, sin cargos ocultos.</p>
+          </div>
+
+          <div style="margin-top: 10px;">
+            <button type="button" class="btn-primary btn-open-booking" data-i18n="why_cta">Agendar valoración gratuita</button>
+          </div>
+        </div>
+
+        <!-- Fotografía Paciente en Balcón de Cartagena -->
+        <div class="why-image-card">
+          <img src="paciente.jpg" alt="Paciente recuperándose viendo el atardecer en Cartagena" class="why-img">
+          <div class="why-img-caption" data-i18n="why_img_caption">
+            Paciente recuperándose viendo el atardecer sobre el centro histórico de Cartagena
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       09 · EQUIPO MÉDICO Y ACOMPAÑAMIENTO
+       ======================================================================== -->
+  <section class="section-team" id="equipo">
+    <div class="container">
+      <div class="section-head">
+        <h2 class="section-title" data-i18n="team_title">Profesionales que acompañan tu proceso</h2>
+        <p class="section-subtitle" data-i18n="team_subtitle">Antes de decidir te damos su nombre, su especialidad y cómo te acompaña.</p>
+      </div>
+
+      <div class="team-grid">
+        <!-- Miembro 1: Dra. Clara Torres -->
+        <article class="team-card">
+          <div class="team-card-media">
+            <img src="Dra-Clara-Torres.jpeg" alt="Dra. Clara Torres" class="team-card-img">
+          </div>
+          <div class="team-card-body">
+            <h3 class="team-card-name" data-i18n="team1_name">Dra. Clara Torres</h3>
+            <span class="team-card-role" data-i18n="team1_role">Cirujana ortopédica</span>
+            <p class="team-card-desc" data-i18n="team1_desc">Opera en Cartagena y realiza la consulta y valoración virtual contigo antes del viaje.</p>
+          </div>
+        </article>
+
+        <!-- Miembro 2: Dra. Inés -->
+        <article class="team-card">
+          <div class="team-card-media">
+            <img src="Ines.png" alt="Dra. Inés Anestesióloga" class="team-card-img">
+          </div>
+          <div class="team-card-body">
+            <h3 class="team-card-name" data-i18n="team2_name">Dra. Inés</h3>
+            <span class="team-card-role" data-i18n="team2_role">Anestesióloga</span>
+            <p class="team-card-desc" data-i18n="team2_desc">Te explica a fondo el protocolo de anestesia antes de que firmes cualquier consentimiento.</p>
+          </div>
+        </article>
+
+        <!-- Miembro 3: Teresa Torres -->
+        <article class="team-card">
+          <div class="team-card-media">
+            <img src="Teresa-Torres-CEO.jpeg" alt="Teresa Torres Fundadora" class="team-card-img">
+          </div>
+          <div class="team-card-body">
+            <h3 class="team-card-name" data-i18n="team3_name">Teresa Torres</h3>
+            <span class="team-card-role" data-i18n="team3_role">Fundadora & Concierge Médica</span>
+            <p class="team-card-desc" data-i18n="team3_desc">Está contigo presencialmente en la clínica y en los controles diarios en el hotel.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       10 · CTA FINAL Y CONTACTO
+       ======================================================================== -->
+  <div class="final-cta-night-frame">
+    <section class="section-final-cta" id="contacto">
+      <div class="final-cta-bg-layer"></div>
+      <div class="container">
+        <div class="final-cta-content">
+          <h2 class="final-cta-title" data-i18n="cta_box_title">Cuéntanos tu caso y te decimos cómo podemos ayudarte</h2>
+          <p class="final-cta-desc" data-i18n="cta_box_subtitle">Te contesta una persona del equipo médico. La primera conversación es sin costo ni compromiso.</p>
+          <button type="button" class="btn-primary btn-open-booking" style="font-size: 1.15rem; padding: 18px 44px;" data-i18n="cta_box_btn">
+            Agendar valoración gratuita
+          </button>
+          <span class="final-cta-badge" data-i18n="cta_box_footer">Atención en tu idioma · Valoración sin costo · Respuesta en menos de 24h</span>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- ========================================================================
+       11 · GUÍA DESCARGABLE
+       ======================================================================== -->
+  <section class="section-guide" aria-label="Guía descargable">
+    <div class="container">
+      <div class="guide-box">
+        <div class="guide-text-area">
+          <span class="eyebrow" data-i18n="guide_eyebrow">GUÍA DESCARGABLE GRATUITA</span>
+          <h3 class="guide-title" data-i18n="guide_title">Guía para operarte fuera de tu país</h3>
+          <p class="guide-desc" data-i18n="guide_desc">Qué preguntar antes de decidir, cómo organizar el viaje y qué llevar en tu maleta médica. La escribimos con las dudas reales que nos llegan cada semana.</p>
+        </div>
+        <button type="button" class="btn-secondary" id="btn-download-guide">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span data-i18n="guide_btn">Descargar guía gratuita (PDF)</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========================================================================
+       12 · FOOTER
+       ======================================================================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Columna Marca -->
+        <div class="footer-brand-col">
+          <div class="footer-brand-header">
+            <img src="Logo.png" alt="Más Conexión Salud Logo" class="footer-brand-logo">
+            <span class="footer-brand-title" data-i18n="foot_about">Más Conexión Salud</span>
+          </div>
+          <p class="footer-brand-desc" data-i18n="foot_desc">Cirugía y recuperación médica acompañada en Cartagena, Colombia. Calidad asistencial internacional con calidez humana.</p>
+          <span class="footer-brand-loc" data-i18n="foot_loc">Bocagrande, Cartagena · Colombia</span>
+        </div>
+
+        <!-- Columna 1: Navegación -->
+        <div class="footer-links-col">
+          <span class="footer-col-title" data-i18n="foot_col1_title">NAVEGACIÓN</span>
+          <ul class="footer-link-list">
+            <li><a href="#como-funciona" data-i18n="foot_nav_how">Cómo funciona</a></li>
+            <li><a href="#servicios" data-i18n="foot_nav_serv">Servicios</a></li>
+            <li><a href="#por-que-cartagena" data-i18n="foot_nav_why">Por qué Cartagena</a></li>
+            <li><a href="#equipo" data-i18n="foot_nav_team">Equipo médico</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 2: Recursos -->
+        <div class="footer-links-col">
+          <span class="footer-col-title" data-i18n="foot_col2_title">RECURSOS</span>
+          <ul class="footer-link-list">
+            <li><a href="#guia" id="link-footer-guide" data-i18n="foot_res_guide">Guía descargable</a></li>
+            <li><a href="#experiencia" data-i18n="foot_res_video">Video de Teresa</a></li>
+            <li><a href="#contacto" data-i18n="foot_res_prep">Qué traer y cómo viajar</a></li>
+          </ul>
+        </div>
+
+        <!-- Columna 3: Contacto -->
+        <div class="footer-links-col">
+          <span class="footer-col-title" data-i18n="foot_col3_title">CONTACTO</span>
+          <ul class="footer-link-list">
+            <li><a href="https://wa.me/573000000000" target="_blank" rel="noopener noreferrer" data-i18n="foot_con_wa">WhatsApp Directo</a></li>
+            <li><a href="mailto:contacto@masconexionsalud.com" data-i18n="foot_con_mail">contacto@masconexionsalud.com</a></li>
+            <li><a href="https://instagram.com" target="_blank" rel="noopener noreferrer" data-i18n="foot_con_ig">Instagram</a></li>
+            <li><a href="#por-que-cartagena" data-i18n="foot_con_how">Cómo llegar a Cartagena</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Barra Inferior Legal -->
+      <div class="footer-bottom">
+        <span data-i18n="foot_copy">© 2026 Más Conexión Salud · Cartagena, Colombia</span>
+        <div class="footer-legal-links">
+          <a href="#aviso" data-i18n="foot_legal1">Aviso legal</a>
+          <a href="#privacidad" data-i18n="foot_legal2">Privacidad</a>
+          <a href="#consentimiento" data-i18n="foot_legal3">Consentimiento informado</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ========================================================================
+       MODAL 1: FORMULARIO DE VALORACIÓN MÉDICA / CONTACTO
+       ======================================================================== -->
+  <div class="modal-backdrop" id="modal-booking" role="dialog" aria-modal="true" aria-labelledby="modal-booking-title">
+    <div class="modal-window">
+      <button type="button" class="modal-close-btn" aria-label="Cerrar ventana modal">✕</button>
+      <h3 class="modal-title" id="modal-booking-title" data-i18n="modal_val_title">Solicitar Valoración Médica Gratuita</h3>
+      <p class="modal-subtitle" data-i18n="modal_val_sub">Completa el formulario y un especialista de nuestro equipo se comunicará contigo confidencialmente.</p>
+
+      <form id="booking-form" class="booking-form">
+        <div class="form-group">
+          <label for="field-name" data-i18n="form_name">Nombre completo</label>
+          <input type="text" id="field-name" class="form-input" required placeholder="Ej. Mariana Gómez" data-i18n-placeholder="form_name">
+        </div>
+
+        <div class="form-group">
+          <label for="field-phone" data-i18n="form_phone">WhatsApp con código de país</label>
+          <input type="tel" id="field-phone" class="form-input" required placeholder="+1 305 555 0199" data-i18n-placeholder="form_phone">
+        </div>
+
+        <div class="form-group">
+          <label for="field-email" data-i18n="form_email">Correo electrónico</label>
+          <input type="email" id="field-email" class="form-input" required placeholder="correo@ejemplo.com" data-i18n-placeholder="form_email">
+        </div>
+
+        <div class="form-group">
+          <label for="field-service" data-i18n="form_service">¿Qué procedimiento o servicio te interesa?</label>
+          <select id="field-service" class="form-select" required>
+            <option value="" disabled selected data-i18n="form_select_opt">Selecciona una opción...</option>
+            <optgroup label="Servicios Quirúrgicos">
+              <option value="Refresh Facial Avanzado">Refresh Facial Avanzado</option>
+              <option value="Cirugía Bariátrica">Cirugía Bariátrica (Manga / Bypass)</option>
+              <option value="Reemplazos Articulares">Reemplazos Articulares (Cadera / Rodilla)</option>
+              <option value="Implante Peneano">Implante Peneano</option>
+            </optgroup>
+            <optgroup label="Servicios Wellness">
+              <option value="Estadía en Hotel Boutique">Estadía en Hotel Boutique de Recuperación</option>
+              <option value="Drenaje Linfático">Drenaje Linfático Postquirúrgico</option>
+              <option value="Cámara Hiperbárica">Terapia de Cámara Hiperbárica</option>
+              <option value="Nutrición y Longevidad">Nutrición y Longevidad Metabólica</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="field-country" data-i18n="form_country">País y ciudad de residencia</label>
+          <input type="text" id="field-country" class="form-input" required placeholder="Ej. Miami, Estados Unidos" data-i18n-placeholder="form_country">
+        </div>
+
+        <div class="form-group">
+          <label for="field-notes" data-i18n="form_notes">Cuéntanos detalles de tu caso o dudas previas</label>
+          <textarea id="field-notes" class="form-textarea" rows="3" placeholder="Describe brevemente tus expectativas o antecedentes..."></textarea>
+        </div>
+
+        <div class="form-feedback" id="form-feedback"></div>
+
+        <button type="submit" class="form-submit-btn" data-i18n="form_submit">Enviar y agendar valoración</button>
+
+        <div class="whatsapp-direct-box">
+          <span style="font-size: 0.85rem; color: var(--ink-70);" data-i18n="form_whatsapp_alt">¿Prefieres escribirnos directamente?</span>
+          <a href="https://wa.me/573000000000?text=Hola%20M%C3%A1s%20Conexi%C3%B3n%20Salud,%20deseo%20una%20valoraci%C3%B3n%20m%C3%A9dica" target="_blank" rel="noopener noreferrer" class="whatsapp-direct-btn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0 0 12.04 2z"></path></svg>
+            <span data-i18n="form_whatsapp_btn">Chatear por WhatsApp ahora</span>
+          </a>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 2: DETALLES DE TIEMPOS Y PROCEDIMIENTOS CLÍNICOS
+       ======================================================================== -->
+  <div class="modal-backdrop" id="modal-service-detail" role="dialog" aria-modal="true" aria-labelledby="detail-modal-title">
+    <div class="modal-window">
+      <button type="button" class="modal-close-btn" aria-label="Cerrar modal">✕</button>
+      <h3 class="modal-title" id="detail-modal-title">Detalles del Servicio</h3>
+      <p class="modal-subtitle" id="detail-modal-desc">Descripción del procedimiento.</p>
+
+      <div class="service-detail-timeline">
+        <div class="detail-row">
+          <span class="detail-label" data-i18n="modal_detail_prep">Días previos:</span>
+          <span class="detail-val" id="detail-val-prep">2 días</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label" data-i18n="modal_detail_surg">Tiempo en quirófano:</span>
+          <span class="detail-val" id="detail-val-surg">2 horas</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label" data-i18n="modal_detail_stay">Hospitalización:</span>
+          <span class="detail-val" id="detail-val-stay">1 día</span>
+        </div>
+        <div class="detail-row">
+          <span class="detail-label" data-i18n="modal_detail_city">Estadía recomendada en Cartagena:</span>
+          <span class="detail-val" id="detail-val-city">13 a 15 días</span>
+        </div>
+      </div>
+
+      <button type="button" class="btn-primary" id="detail-modal-cta-btn" style="width: 100%; justify-content: center;" data-i18n="modal_detail_cta">
+        Solicitar cotización de este servicio
+      </button>
+    </div>
+  </div>
+
+  <!-- ========================================================================
+       MODAL 3: VIDEO EXPERIENCIA DE TERESA
+       ======================================================================== -->
+  <div class="modal-backdrop" id="modal-video" role="dialog" aria-modal="true" aria-label="Video de Teresa">
+    <div class="modal-window video-modal-window">
+      <button type="button" class="modal-close-btn" style="background: rgba(255,255,255,0.2); color: #fff;" aria-label="Cerrar video">✕</button>
+      <div class="video-player-wrapper">
+        <div style="background: #0B1620; width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; color: var(--on-ink); padding: 40px; text-align: center;">
+          <img src="Teresa-Torres-CEO.jpeg" alt="Teresa Torres" style="width: 90px; height: 90px; border-radius: 50%; object-fit: cover; border: 2px solid var(--accent); margin-bottom: 16px;">
+          <h4 style="font-family: var(--font-display); font-size: 1.4rem; margin-bottom: 8px;">Mensaje de Teresa Torres, Fundadora</h4>
+          <p style="font-size: 0.95rem; color: var(--on-ink-70); max-width: 480px; margin-bottom: 20px;">
+            “En Más Conexión Salud no solo coordinamos médicos de primer nivel; estamos a tu lado desde que aterrizas en Cartagena hasta que regresas a casa.”
+          </p>
+          <button type="button" class="btn-primary btn-open-booking" style="font-size: 0.9rem; padding: 10px 24px;">
+            Agendar videollamada con Teresa
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/translations.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
