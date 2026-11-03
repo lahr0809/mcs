@@ -668,4 +668,22 @@ document.addEventListener('DOMContentLoaded', () => {
     // Cache inicial tras el render del layout
     setTimeout(cacheParallaxPositions, 100);
   }
+
+  /* ========================================================================
+     8. BOTÓN FLOTANTE WHATSAPP
+     Se muestra solo al hacer scroll
+     ======================================================================== */
+  const whatsappFloat = document.getElementById('whatsapp-float');
+  if (whatsappFloat) {
+    const toggleWhatsapp = () => {
+      if (window.scrollY > 10) {
+        whatsappFloat.classList.add('visible');
+      } else {
+        whatsappFloat.classList.remove('visible');
+      }
+    };
+
+    toggleWhatsapp();
+    window.addEventListener('scroll', toggleWhatsapp, { passive: true });
+  }
 });
